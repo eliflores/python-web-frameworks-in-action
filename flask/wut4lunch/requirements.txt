@@ -1,0 +1,5 @@
+# A requirements file for use with the pip package manager
+Flask
+Flask-SQLAlchemy
+SQLAlchemy
+Flask-WTF
