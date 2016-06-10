@@ -17,8 +17,7 @@
 https://realpython.com/blog/python/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
 
 ## Where can I see this app running?
-Go to: https://wut4lunch-flask.herokuapp.com/
-[This is running with StagingConfig]
+Go to: https://wut4lunch-flask.herokuapp.com/  (staging env)
 
 # References
 
