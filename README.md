@@ -6,4 +6,4 @@ The goal of this project is to compare three of the most populare Python Web Fra
 2. Pyramid
 3. Django
 
-This is based on the blog post from Ryan Brown: https://www.airpair.com/python/posts/django-flask-pyramid 
+This is based on the blog post by Ryan Brown: https://www.airpair.com/python/posts/django-flask-pyramid 
