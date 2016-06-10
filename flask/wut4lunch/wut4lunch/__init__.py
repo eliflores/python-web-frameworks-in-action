@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask
 from flask import render_template
 
@@ -6,8 +8,9 @@ from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-# We'll just use SQLite here so we don't need an external database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config.from_object(os.environ['APP_SETTINGS'])
+print(os.environ['APP_SETTINGS'])
+print(app.config['SQLALCHEMY_DATABASE_URI'])
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
 

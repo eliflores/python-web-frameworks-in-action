@@ -1,4 +1,4 @@
 from wut4lunch import app
-from wut4lunch import db
-db.create_all()  # make our sqlalchemy tables
-app.run(debug=True)
+
+if __name__ == '__main__':
+    app.run(debug=True)

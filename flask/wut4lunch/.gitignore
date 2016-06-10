@@ -64,7 +64,4 @@ target/
 .ipynb_checkpoints
 
 #Database
-*.db
-
-#Idea
-.idea/
+wut4lunch/test.db

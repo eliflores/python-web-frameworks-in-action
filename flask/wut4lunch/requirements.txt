@@ -3,3 +3,9 @@ Flask
 Flask-SQLAlchemy
 SQLAlchemy
 Flask-WTF
+gunicorn
+psycopg2
+alembic
+Flask-Script
+Flask-Migrate
+autoenv
