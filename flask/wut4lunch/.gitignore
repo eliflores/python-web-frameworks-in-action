@@ -65,3 +65,5 @@ target/
 
 #Database
 wut4lunch/test.db
+
+.env
