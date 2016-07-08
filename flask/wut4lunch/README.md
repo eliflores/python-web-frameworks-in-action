@@ -1,5 +1,5 @@
 #Steps
-1. `$ python3 -m venv venv`
+1. `$ python3 -m venv venv` (using Python Python 3.5.1)
 2. `$ source venv/bin/activate`
 3. `$ pip install -r requirements.txt`
 4. `$ echo "source 'which activate.sh'" >> ~/.bash_profile`
