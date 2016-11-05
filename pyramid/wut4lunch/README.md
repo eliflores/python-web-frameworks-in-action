@@ -13,6 +13,23 @@
 9. `pserve development.ini`
 10. `deactivate`
 
+### Current status:
+
+NameError: lunches
+
+ - Expression: "lunches"
+ - Filename:   ... pyramid/wut4lunch/wut4lunch/wut4lunch/templates/index.pt
+ - Location:   (line 2: col 20)
+ - Source:     <div tal:condition="lunches">
+                                   ^^^^^^^
+ - Arguments:  renderer_name: templates/index.pt
+               renderer_info: <RendererHelper - at 0x1047ffa20>
+               context: <DefaultRootFactory None at 0x1047edc88>
+               project: wut4lunch
+               req: <Request - at 0x1047edac8>
+               view: <function my_view at 0x101863620>
+               request: <Request - at 0x1047edac8>
+               repeat: {...} (0)
 
 ## Reference
 * http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html#installing-chapter
