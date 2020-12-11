@@ -1,4 +1,4 @@
-# python-web-frameworks-in-action
+# Python Web Frameworks in Action
 
 The goal of this project is to compare three of the most populare Python Web Frameworks:
 
